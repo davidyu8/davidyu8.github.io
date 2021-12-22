@@ -2,7 +2,7 @@
 div.bio-short {
     position: relative;
     left: 50%;
-    top: -200px;
+    top: -50%;
     max-width: 30%;
 }
 
@@ -13,7 +13,7 @@ div.bio-short {
 /* class for profile picture */
 div.picture {
     position: relative;
-    left: 20%;
+    left: 15%;
     top: 100px;
     max-width: 30%;
 }
