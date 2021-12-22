@@ -1,6 +1,6 @@
 html {
-    font-family: Lucida Console, monospace;
-    background: lightblue;
+    font-family: Merriweather;
+    background: white;
     padding: 1rem;
 }
 
@@ -11,7 +11,7 @@ body {
 
 h1 {
     color: black;
-    font-family: Lucida Console, monospace;
+    font-family: Merriweather;
     margin: 1rem 0;
     text-align: center;
 }
