@@ -1,17 +1,54 @@
+/* define box for short bio */
+div.bio-short {
+    position: relative;
+    left: 50%;
+    top: -200px;
+    max-width: 30%;
+}
+
+#bio-short-head {
+    font-size: 150%;
+}
+
+/* class for profile picture */
+div.picture {
+    position: relative;
+    left: 20%;
+    top: 100px;
+    max-width: 30%;
+}
+
+html {
+    background-color: white;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: white;
     overflow: hidden;
+  }
+
+  /* Typeset name in top left corner. */
+  #topname {
+      font-size: 200%;
   }
   
   /* Style the links inside the navigation bar */
+  .topnav-left {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 18px;
+  }
   .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
   }
   
   /* Change the color of links on hover */
@@ -22,6 +59,6 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: rgb(39 116 174);
     color: white;
   }
