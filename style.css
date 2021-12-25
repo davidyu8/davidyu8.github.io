@@ -1,27 +1,7 @@
 #pic_bio {
-  margin-top: 10%;
-  padding-left: 10%;
+  margin-bottom: 20%;
+  padding-left: 15%;
   padding-right: 10%;
-}
-
-/* define box for short bio */
-div.bio-short {
-    position: relative;
-    left: 50%;
-    top: -50%;
-    max-width: 30%;
-}
-
-#bio-short-head {
-    font-size: 150%;
-}
-
-/* class for profile picture */
-div.picture {
-    position: relative;
-    left: 15%;
-    top: 100px;
-    max-width: 30%;
 }
 
 html {
