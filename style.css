@@ -63,3 +63,8 @@ footer {
   padding-right: 0.5%;
   color: black;
 }
+
+/* other link styling*/
+.main_text a:link, .main_text a:visited {
+  color: #0000EE;
+}
