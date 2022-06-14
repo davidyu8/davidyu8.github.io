@@ -68,3 +68,8 @@ footer {
 .main_text a:link, .main_text a:visited {
   color: #0000EE;
 }
+
+/* other link styling*/
+#bio a:link, .main_text a:visited {
+  color: #0000EE;
+}
