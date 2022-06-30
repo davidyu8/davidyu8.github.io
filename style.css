@@ -65,11 +65,6 @@ footer {
 }
 
 /* other link styling*/
-.main_text a:link, .main_text a:visited {
-  color: #0000EE;
-}
-
-/* other link styling*/
-#bio a:link, .main_text a:visited {
+.main_text a:link, .main_text a:visited, #bio a:link, #bio a:visited{
   color: #0000EE;
 }
