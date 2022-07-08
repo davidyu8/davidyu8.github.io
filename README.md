@@ -14,3 +14,4 @@ My website contains sections about myself and my research work.
   - This could include a downward chevron for scrolling (see 02/02/2022 text TY).
   - Add a news tab (with thumbnails for each headline).
 - Add recordings to website (UES Stata and UERF Symposium (probably should add slides for both)).
+- New tabs should be created upon clicks [https://www.w3schools.com/tags/att_a_target.asp](https://www.w3schools.com/tags/att_a_target.asp).
