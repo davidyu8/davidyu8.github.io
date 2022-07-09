@@ -1,5 +1,5 @@
 # My Personal Website
-This repository is home to my [website](daviddyu.com), which summarizes my skills and career.
+This repository is home to my [website](https://www.daviddyu.com), which summarizes my skills and career.
 ## Description
 My website contains sections about myself and my research work.
 ## Enhancements
