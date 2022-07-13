@@ -3,7 +3,6 @@ This repository is home to my [website](https://daviddyu.com), which summarizes 
 ## Description
 My website contains sections about myself and my research work.
 ## Enhancements
-- Add a menu button to the top navigation bar (like the three dots/bars).
 - Add a "read more" button that will redirect users to a particular article.
 - Design and implement a new layout for the home page.
 - Design and implement a border/decoration.
