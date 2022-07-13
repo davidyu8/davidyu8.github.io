@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather&display=swap"> <!--Merriweather font-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Icons-->
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/site.webmanifest">
+        <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="images/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>David Yu | News</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="David Yu's Personal Website">
+        <meta name="keywords" content="David, Yu, Economics, Research, UCLA, Federal Reserve, Econ, Martha Bailey, Michela Giorcelli
+        , Dario Caldara, Anna Lipinska, Melanie Wasserman, Zhihao Xu, Economic">
+        <meta name="author" content="David Yu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="dropdown">
+                <button class="dropbtn" onclick="funcDrop()">
+                    <i class="fa fa-bars" style="pointer-events:none"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a class="active" href="news">News</a>
+                    <a href="files/resume.pdf">Resume</a>
+                    <a href="projects">Other Projects</a>
+                    <a href="contact">Contact</a>
+                </div>
+            </div>
+            <a href="https://davidyu8.github.io">Home</a>
+            <a href="research">Research</a>
+            <a href="about">About</a>
+        </div>
+
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function funcDrop() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+                if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                        myDropdown.classList.remove('show');
+                    }
+                }
+            }
+        </script>
+
+        <footer>
+            <a class="icon" href="https://github.com/davidyu8"><i class="fa fa-github"></i></a>
+            <a class="icon" href="https://www.linkedin.com/in/david-d-yu"><i class="fa fa-linkedin-square"></i></a>
+            <a class="icon" href="mailto:david.yu@ucla.edu"><i class="fa fa-envelope"></i></a>
+        </footer>
+    </body>
+</html>

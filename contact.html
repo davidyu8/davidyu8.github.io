@@ -24,9 +24,19 @@
 </head>
 <body>
   <div class="topnav">
+    <div class="dropdown">
+        <button class="dropbtn" onclick="funcDrop()">
+            <i class="fa fa-bars" style="pointer-events:none"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="news">News</a>
+            <a href="files/resume.pdf">Resume</a>
+            <a href="projects">Other Projects</a>
+            <a class="active" href="contact">Contact</a>
+        </div>
+    </div>
     <a href="https://davidyu8.github.io">Home</a>
     <a href="research">Research</a>
-    <a class="active" href="contact">Contact</a>
     <a href="about">About</a>
   </div>
 
@@ -37,6 +47,24 @@
   <div class="main_text">
   <p>Email: <a href="mailto:david.yu@ucla.edu">david.yu@ucla.edu</a></p>
   </div>
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function funcDrop() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+            }
+        }
+    }
+  </script>
 
   <footer>
     <a class="icon" href="https://github.com/davidyu8"><i class="fa fa-github"></i></a>
