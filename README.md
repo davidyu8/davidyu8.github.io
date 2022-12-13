@@ -4,6 +4,7 @@ This repository is home to my [website](https://daviddyu.com), which summarizes 
 My website contains sections about myself and my research work.
 ## Enhancements
 - Add a "read more" button that will redirect users to a particular article.
+- Update the mobile experience.
 - Design and implement a new layout for the home page.
 - Design and implement a border/decoration.
 - Change style of currency crisis pages to match with other pages.
