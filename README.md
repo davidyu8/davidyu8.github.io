@@ -14,3 +14,4 @@ My website contains sections about myself and my research work.
   - Add a news tab (with thumbnails for each headline).
 - Add recordings to website (UES Stata and UERF Symposium (probably should add slides for both)).
 - New tabs should be created upon clicks [https://www.w3schools.com/tags/att_a_target.asp](https://www.w3schools.com/tags/att_a_target.asp).
+- Add news for the [FEDS note](https://www.federalreserve.gov/econres/notes/feds-notes/international-spillovers-of-tighter-monetary-policy-20221222.html) that I was a research assistant on.
