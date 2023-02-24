@@ -88,13 +88,19 @@ body {
   font-size: 300%;
   text-align: center;
 }
-
+/* in development as of February 23, 2023
 #bio {
   margin-bottom: 5%;
   padding-left: 15%;
   padding-right: 15%;
   outline: #4CAF50 solid 10px;
   height: 400px;
+}
+*/
+#bio {
+  margin-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .main_text {
